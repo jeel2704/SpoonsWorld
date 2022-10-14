@@ -40,5 +40,11 @@ update readme file and upload it to github
 10:50
 add [Column(TypeName = "decimal(18, 2)")] in spoon.cs file to shoe only two numbers
 upload to github
+11:07
+add search to mvc app
+make changes in startup.cs and index.cshtml file
+run the app and try search
+it works
+upload to github
 
 

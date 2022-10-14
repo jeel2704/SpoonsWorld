@@ -20,9 +20,17 @@ namespace SpoonsWorld.Controllers
         }
 
         // GET: Spoons
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Spoon.ToListAsync());
+            var Spoon = from m in _context.Spoon
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                Spoon = Spoon.Where(s => s.Name.Contains(searchString));
+            }
+
+            return View(await Spoon.ToListAsync());
         }
 
         // GET: Spoons/Details/5
