@@ -37,5 +37,8 @@ and run the program
 it works
 7:12
 update readme file and upload it to github
+10:50
+add [Column(TypeName = "decimal(18, 2)")] in spoon.cs file to shoe only two numbers
+upload to github
 
 
