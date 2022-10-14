@@ -9,3 +9,5 @@
 and give properties id, name , material, brand, weight, number of pieces and price.
 run the app it work successfully
 upload code to github
+4:20
+Create database context class SpoonsWorldContext.cs file
