@@ -20,8 +20,11 @@ namespace SpoonsWorld.Controllers
         }
 
         // GET: Spoons
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index(string SpoonMaterial,string searchString)
         {
+            IQueryable<string> MaterialQuery = from m in _context.Spoon
+                                            orderby m.Material
+                                            select m.Material;
             var Spoon = from m in _context.Spoon
                          select m;
 
@@ -29,8 +32,16 @@ namespace SpoonsWorld.Controllers
             {
                 Spoon = Spoon.Where(s => s.Name.Contains(searchString));
             }
-
-            return View(await Spoon.ToListAsync());
+            if (!string.IsNullOrEmpty(SpoonMaterial))
+            {
+                Spoon = Spoon.Where(x => x.Material == SpoonMaterial);
+            }
+            var SpoonMaterialVM = new SpoonMaterialViewModel
+            {
+                Meterial = new SelectList(await MaterialQuery.Distinct().ToListAsync()),
+                Spoon = await Spoon.ToListAsync()
+            };
+            return View(SpoonMaterialVM);
         }
 
         // GET: Spoons/Details/5

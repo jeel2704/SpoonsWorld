@@ -46,5 +46,15 @@ make changes in startup.cs and index.cshtml file
 run the app and try search
 it works
 upload to github
+11:42
+add search by meterial 
+follow th instruction 
+Add new class spoonmaterialviewmodel.cs in model
+make changes in spooncontroller.ca to search by category
+add search in html file
+run the code there was some error
+fix the error and run successfully
+
+
 
 
