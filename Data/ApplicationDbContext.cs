@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using SpoonsWorld.Models;
 
 namespace SpoonsWorld.Data
 {
@@ -12,5 +13,6 @@ namespace SpoonsWorld.Data
             : base(options)
         {
         }
+        public DbSet<SpoonsWorld.Models.Spoon> Spoon { get; set; }
     }
 }
