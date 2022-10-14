@@ -11,3 +11,6 @@ run the app it work successfully
 upload code to github
 4:20
 Create database context class SpoonsWorldContext.cs file
+4:26
+Register the database context
+make changes in startup.cs file, appsettings.json and launchsettings.json file
