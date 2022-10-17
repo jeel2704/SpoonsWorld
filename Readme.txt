@@ -91,6 +91,9 @@ apply some font color
 looking for more data to add in about us page
 provide contect information of company
 
+1:20
+add some css to table 
+make border around the table
 
 
 
