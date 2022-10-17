@@ -65,6 +65,18 @@ and make about page
 11:15
 write company and product description in about page
 
+11:30
+I add images to index page
+
+12:14
+now time to add css
+create new file layout.css to webapp
+then link file 
+first change the background color to gray
+then change font family
+add border redius to image with some shadow
+
+
 
 
 

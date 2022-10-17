@@ -1,0 +1,32 @@
+﻿body {
+    background-color:lightgray;
+}
+img {
+    width: 600px;
+    height: 600px;
+    border: 5px black;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+h1 {
+    font-family:Didot,serif;
+    
+}
+h4{
+    font-family:Andale monospace,monospace;
+}
+nav{
+    font-family:noto sans-serif,;
+}
+p{
+    font-family:dejavu sans-serif monospace;
+    font-size:1.2em;
+}
+h3{
+    font-family:avanta garde;
+}
+h2 {
+    font-family: avanta garde;
+}
