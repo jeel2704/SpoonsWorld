@@ -101,9 +101,3 @@ it's work completely fine
 now time to do validation of fields
 so it will only accept valid information
 now finally our app is ready
-
-
-
-
-
-
