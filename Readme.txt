@@ -59,6 +59,9 @@ fix the error and run successfully
 add new field rating with decimal
 add rating field in Index.cshtml file
 update seeddata and add migration
+10:37
+link table to index page
+and make about page
 
 
 
