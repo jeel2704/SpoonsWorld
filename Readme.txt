@@ -62,7 +62,8 @@ update seeddata and add migration
 10:37
 link table to index page
 and make about page
-
+11:15
+write company and product description in about page
 
 
 
