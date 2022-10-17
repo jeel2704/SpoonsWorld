@@ -94,6 +94,13 @@ provide contect information of company
 1:20
 add some css to table 
 make border around the table
+finally run the webapp
+it's work completely fine
+
+1:49
+now time to do validation of fields
+so it will only accept valid information
+now finally our app is ready
 
 
 
