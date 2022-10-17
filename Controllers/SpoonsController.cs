@@ -73,7 +73,7 @@ namespace SpoonsWorld.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Material,Brand,weight,NumberOfPieces,Price")] Spoon spoon)
+        public async Task<IActionResult> Create([Bind("Id,Name,Material,Brand,weight,NumberOfPieces,Price,Rating")] Spoon spoon)
         {
             if (ModelState.IsValid)
             {
@@ -105,7 +105,7 @@ namespace SpoonsWorld.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Material,Brand,weight,NumberOfPieces,Price")] Spoon spoon)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Material,Brand,weight,NumberOfPieces,Price,Rating")] Spoon spoon)
         {
             if (id != spoon.Id)
             {

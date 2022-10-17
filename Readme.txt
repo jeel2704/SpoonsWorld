@@ -54,6 +54,12 @@ make changes in spooncontroller.ca to search by category
 add search in html file
 run the code there was some error
 fix the error and run successfully
+16/10/2022
+10:15pm
+add new field rating with decimal
+add rating field in Index.cshtml file
+update seeddata and add migration
+
 
 
 

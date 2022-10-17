@@ -30,7 +30,8 @@ namespace SpoonsWorld.Models
                         Brand = "Winco",
                         weight = 300,
                         NumberOfPieces = 8,
-                        Price = 18
+                        Price = 18,
+                        Rating = 3
                     },
 
                      new Spoon
@@ -40,7 +41,8 @@ namespace SpoonsWorld.Models
                          Brand = "Winco",
                          weight = 600,
                          NumberOfPieces = 8,
-                         Price = 35
+                         Price = 35,
+                         Rating = 3
                      },
 
                      new Spoon
@@ -50,7 +52,8 @@ namespace SpoonsWorld.Models
                          Brand = "OXO",
                          weight = 300,
                          NumberOfPieces = 4,
-                         Price = 18
+                         Price = 18,
+                         Rating = 4
                      },
 
                     new Spoon
@@ -60,7 +63,8 @@ namespace SpoonsWorld.Models
                         Brand = "Winco",
                         weight = 200,
                         NumberOfPieces = 4,
-                        Price = 6
+                        Price = 6,
+                        Rating = 1
                     },
                      new Spoon
                      {
@@ -69,7 +73,8 @@ namespace SpoonsWorld.Models
                          Brand = "Dowan",
                          weight = 800,
                          NumberOfPieces = 6,
-                         Price = 45
+                         Price = 45,
+                         Rating = 2
                      },
                       new Spoon
                       {
@@ -78,7 +83,8 @@ namespace SpoonsWorld.Models
                           Brand = "Winco",
                           weight = 400,
                           NumberOfPieces = 8,
-                          Price = 20
+                          Price = 20,
+                          Rating = 4
                       },
                        new Spoon
                        {
@@ -87,7 +93,8 @@ namespace SpoonsWorld.Models
                            Brand = "Winco",
                            weight = 300,
                            NumberOfPieces = 8,
-                           Price = 18
+                           Price = 18,
+                           Rating = 3
                        },
                         new Spoon
                         {
@@ -96,7 +103,8 @@ namespace SpoonsWorld.Models
                             Brand = "Txv",
                             weight = 300,
                             NumberOfPieces = 50,
-                            Price = 20
+                            Price = 20,
+                            Rating = 5
                         },
                          new Spoon
                          {
@@ -105,7 +113,8 @@ namespace SpoonsWorld.Models
                              Brand = "Idomy",
                              weight = 500,
                              NumberOfPieces = 8,
-                             Price = 30
+                             Price = 30,
+                             Rating = 5
                          },
                           new Spoon
                           {
@@ -114,7 +123,8 @@ namespace SpoonsWorld.Models
                               Brand = "ONLYKXY",
                               weight = 600,
                               NumberOfPieces = 4,
-                              Price = 18
+                              Price = 18,
+                              Rating = 4
                           },
                            new Spoon
                            {
@@ -123,7 +133,8 @@ namespace SpoonsWorld.Models
                                Brand = "Hiware",
                                weight = 300,
                                NumberOfPieces = 8,
-                               Price = 22
+                               Price = 22,
+                               Rating = 5
                            }
                 );
                 context.SaveChanges();

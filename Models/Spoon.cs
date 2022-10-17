@@ -13,9 +13,12 @@ namespace SpoonsWorld.Models
         public string Name { get; set; }
         public string Material { get; set; }
         public string Brand { get; set; }
+        [Column(TypeName = "decimal(18, 2)")]
         public decimal weight { get; set; }
         public int NumberOfPieces { get; set; }
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
+        [Column(TypeName = "decimal(18, 2)")]
+        public decimal Rating { get; set; }
     }
 }
