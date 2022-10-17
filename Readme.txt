@@ -1,4 +1,6 @@
-﻿4:05am started assignment my topic is spoons
+﻿
+4:05am started assignment my topic is spoons
+
 4:06am give the name to project spoonsworld
  create mvc webapp
  run the webapp it work successfully
@@ -75,6 +77,21 @@ then link file
 first change the background color to gray
 then change font family
 add border redius to image with some shadow
+
+12:50
+
+add one more image in index page
+and set images side by side with css
+as well as make some changes in about page
+add one image 
+and apply css to it
+apply some font color 
+
+1:12
+looking for more data to add in about us page
+provide contect information of company
+
+
 
 
 
